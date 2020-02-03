@@ -1,6 +1,75 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+const iGetTheJoke = false;
+const havingFun = true;
+const learning = true;
+const killingIt = havingFun && learning;
+
+returnFalse =(alwaysFalse) => {
+return alwaysFalse = false;
+};
+
+isOpposite =(oppo) => {
+if (oppo === true){
+  return false
+}else {
+  return true
+}
+}
+
+both =(bool1,bool2) => {
+if (bothTrue = bool1 && bool2) {
+  return true
+} else {
+  return false
+}
+}
+
+either = (bool1,bool2) => {
+
+  if (bool1 === true || bool2 === true ) {
+    return true
+  } else {
+    return false
+  }
+}
+
+firstOnly = (bool1,bool2) => {
+if (bool1 === true && bool2 === false) {
+  return true
+} else {
+  return false
+}
+}
+
+secondOnly =(bool1,bool2) => {
+if ( bool1 === false && bool2 === true) {
+  return true
+}else {
+  return false
+}
+}
+
+neither =(bool1,bool2) => {
+if ( bool1 === false && bool2 === false){
+  return true
+}else {
+  return false
+}
+}
+itsComplicated =(bool1,bool2,bool3) => {
+if (bool1 === false || bool2 === true && bool3 === true ){
+  return true
+} else {
+  return false
+}
+}
+
+
+
+
+
 
 
 
