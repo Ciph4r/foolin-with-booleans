@@ -11,15 +11,11 @@ return alwaysFalse = false;
 };
 
 isOpposite =(oppo) => {
-if (oppo === true){
-  return false
-}else {
-  return true
-}
+return ! + oppo
 }
 
 both =(bool1,bool2) => {
-if (bothTrue = bool1 && bool2) {
+if (bool1 === true && bool2 === true) {
   return true
 } else {
   return false
